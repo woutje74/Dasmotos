@@ -1,0 +1,35 @@
+body {
+    font-family: Helvetica;
+}
+
+h1 {
+    background-image: url(d:/codecademy/dasmotos/resources/images/pattern.jpeg);
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 32px;
+}
+#brush {
+    color: white;
+    background-color: mediumspringgreen;
+}
+
+#frame {
+    color: white;
+    background-color: lightcoral;
+}
+
+#paint {
+    color: white;
+    background-color: skyblue;
+}
+
+.price {
+    font-weight: bold;
+    color: blue;
+}
