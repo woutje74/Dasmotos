@@ -1,6 +1,15 @@
 body {
     font-family: Helvetica;
+    background-color: rgb(248, 185, 149);
 }
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex: none;
+    justify-content: space-between;
+}
+
 
 h1 {
     background-image: url(d:/codecademy/dasmotos/resources/images/pattern.jpeg);
@@ -8,24 +17,37 @@ h1 {
     font-weight: bold;
     color: khaki;
     text-align: center;
+    padding: 10px;
+    border-bottom-left-radius: 20px 20px;
 }
 
+#img, h2, h3 {
+    text-align: center; 
+    margin: 10px;
+    border-bottom-left-radius: 20px 20px;
+}
 h2 {
+    color: white;
     font-weight: bold;
     font-size: 32px;
+    padding: 5px;
+}
+
+#img {
+    padding: 10px;
+    border-style: solid;
+    border-color: navy;
+    border-width: 2px;
 }
 #brush {
-    color: white;
     background-color: mediumspringgreen;
 }
 
 #frame {
-    color: white;
     background-color: lightcoral;
 }
 
 #paint {
-    color: white;
     background-color: skyblue;
 }
 
